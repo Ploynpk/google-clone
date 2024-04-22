@@ -1,2 +1,2 @@
-# googleClone
-Images for google's clone project.
+# Readme
+Images for google's clone challenge project.
