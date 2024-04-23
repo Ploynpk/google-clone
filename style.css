@@ -1,0 +1,182 @@
+body {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+* {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.head {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+}
+
+.head-left-side {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%; /* กำหนดความสูงเท่ากับหน้าจอ */
+    padding: 10px 20px;
+    justify-content: flex-start;
+}
+
+#message-right-side {
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    width: 50%;
+    justify-content: flex-end;
+    padding: 20px 150px;
+}
+
+#icon-right-side {
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    width: 50%;
+    justify-content: flex-end;
+    padding: 17px 20px;
+}
+
+#head-left {
+    padding: 10px 20px;
+    display: flex;
+}
+
+#head-right {
+    display: flex;
+    padding: 0px 20px;
+}
+
+#img-logo {
+    text-align: center;
+    width: 420px;
+    height: 140px;
+}
+
+.search-container {
+    align-items: center;
+}
+
+#search-button {
+    border: none;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 10;
+}
+
+#search-button-sec {
+    padding: 10px 140px;
+}
+
+#input-box {
+    position: relative;
+    border-radius: 18px;
+    border: none;
+    width: 600px;
+    height: 40px;
+    outline: none;
+}
+
+#search-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    border: 2px solid #f0f0f0;
+    box-shadow: 5px 5px 10px #888888;
+    width: 600px;
+    height: 40px;
+    padding: 0px 10px;
+    margin: 20;
+}
+
+#img-mic, #img-cam {
+    border: none;
+    width: 40px;
+    height: 40px;
+}
+
+#img-mag {
+    border: none;
+    width: 25px;
+    height: 20px;
+    margin: 20;
+}
+
+#img-account {
+    width: 20px;
+    height: 20px;
+}
+
+#img-apps {
+    width: 20px;
+    height: 20px;
+}
+
+#random-ques {
+    padding: 10px;
+    margin-left: 60;
+}
+
+#link-color {
+    color: purple;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 17px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+#footer-left-side, #footer-right-side {
+    display: flex;
+}
+
+#footer-left-side footer, #footer-right-side footer {
+    margin-right: 20px; 
+}
+
+
+#footer-left-side {
+    position: fixed;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+#footer-right-side {
+    position: fixed;
+    display: flex;
+    right: 0;
+    bottom: 0;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
